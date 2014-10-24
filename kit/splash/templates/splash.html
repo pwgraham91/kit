@@ -1,0 +1,142 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/sandstone.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/splash.css' %}">
+    <script src= "http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <script src= "http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Buenard:700' rel='stylesheet' type='text/css'>
+<script src="http://pupunzi.com/mb.components/mb.YTPlayer/demo/inc/jquery.mb.YTPlayer.js"></script>
+</head>
+<body>
+{#<body style="background-color: lightgray">#}
+
+<nav class="navbar navbar-default" role="navigation">
+
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img id="logo" src="https://www.kitcrm.com/assets/kitLogo_blue-dee2b0f17a06520f1c1ca9772438d09e.png"></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+{#          Might add things in here later     #}
+{#          <li><a href="#">1</a></li>      #}
+
+      </ul>
+        <div class="auth">
+    <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Login</a></li>
+        <li><a href="#">Register</a></li>
+    </ul>
+        </div>
+
+    </div>
+
+</nav>
+{#    Top Jumbotron Portion #}
+<div class="rest">
+    <div class="jumbotron">
+        <div class="container">
+            <div class="col-md-6">
+                <h2 class="jumbo-info">Kit</h2>
+                <h3 class="jumbo-extra">Here to Help Your Business Succeed</h3>
+                <div class="tb">
+                <button id="trial-button" type="button" class="btn btn-primary">Free Trial</button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img class="jumbo-image" src="http://i59.tinypic.com/np2mj8.jpg">
+            </div>
+        </div>
+    </div>
+{#    <div class="row1">#}
+{#        <div class="container">#}
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="3000" style="width:100%;margin: 0 auto; margin-top:60px; margin-bottom:20px ">
+
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+              </ol>
+
+
+              <div class="carousel-inner">
+                <div id="item1"  class="item active">
+                  <div class="carousel-caption">
+                      <h3>Your built-in Social Media Team</h3>
+                      <h4>From scheduling post to running targeted Ads, Kit is a modern age CRM filled with easy to use features for your Business to succeed.</h4>
+                  </div>
+                </div>
+                <div id="item2" class="item">
+                  <div class="carousel-caption">
+                      <h3>1st of its kind Customer Support</h3>
+                      <h4>Kit provides 1 to 1 customer support to make sure your experience using Kit is unforgettable</h4>
+
+                  </div>
+                </div>
+                <div id="item3" class="item">
+{#                  <img src="{% static 'img/david.jpg' %}" alt="...">#}
+                  <div class="carousel-caption">
+                      <h3>All in One</h3>
+                      <h4>Kit helps you manage your Facebook Page, Twitter Account, Instagram Account and Etsy Store from one spot</h4>
+                  </div>
+                </div>
+                <div id="item4" class="item">
+{#                  <img src="{% static 'img/david.jpg' %}" alt="...">#}
+                  <div class="carousel-caption">
+                      <h3>Don't Break The Bank</h3>
+                      <h4>14-Day Free Trial</h4>
+                  </div>
+                </div>
+              </div>
+
+
+              <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+{#                <span class="glyphicon glyphicon-chevron-left"></span>#}
+              </a>
+              <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+{#                <span class="glyphicon glyphicon-chevron-right"></span>#}
+              </a>
+{#        </div>#}
+{#    </div>#}
+    </div>
+    <div class="row">
+        <section class="content-section video-section">
+  <div class="pattern-overlay">
+  <a id="bgndVideo" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=w-Ng5muAAcg',containment:'.video-section', quality:'large', autoPlay:true, mute:true, opacity:1}">bg</a>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+            <h1>Get Kit!</h1>
+            <div class="last">
+            <button id="end-button" type="button" class="btn btn-primary">14-Day Free Trial</button>
+            </div>
+	   </div>
+      </div>
+    </div>
+  </div>
+</section>
+    </div>
+    </div>
+<script>
+    $(document).ready(function () {
+
+    $(".player").mb_YTPlayer();
+
+});
+</script>
+</body>
+</html>

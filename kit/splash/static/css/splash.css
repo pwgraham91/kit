@@ -1,0 +1,122 @@
+body {
+    background-color: #373834;
+}
+.navbar-brand {
+    padding-top: -10px;
+}
+
+.auth {
+    font-size: 60px;
+}
+
+.nav {
+    margin-bottom: 60px;
+    /*height: 40px;*/
+}
+
+.jumbotron {
+    margin-top: -20px;
+    background-image: url("http://i.stack.imgur.com/jGlzr.png");
+    padding-bottom: 500px;
+    margin-bottom: -20px;
+}
+
+.jumbo-image {
+    width: 120%
+}
+
+#trial-button {
+    background: #4eaa4e;
+    border: 1;
+    color: gray;
+    font-size: 20px;
+}
+
+.tb {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: left;
+}
+
+.jumbo-info {
+    font-size: 50px;
+    color: #f5f5f5;
+}
+
+
+.jumbo-extra {
+    font-size: 20px;
+    color: #f5f5f5;
+}
+
+.row1 {
+    background-color: #2d2d2d;
+    height: 500px;
+    padding-top: -20px;
+    margin-top:20px;
+}
+.item{
+    background: #333;
+    text-align: center;
+    height: 300px !important;
+}
+.carousel{
+    margin-top: 20px;
+}
+
+#item1 {
+    background-image: url("http://iquantile.com/web/images/about2.jpg");
+}
+
+#item2 {
+    background-image: url("http://api.ning.com/files/piqloHEL*ktdtXpqvEf5CMhKOR1fOfAEIdMlioEwLvclDHN1348DnH-0m-3wyorvToIuHl069UmznwUe1TNDHhbORyMpzZ0T/customerserviceresumeobjective.gif");
+}
+
+#item3 {
+    background-image: url("http://www.mediabistro.com/alltwitter/files/2013/10/social-media-signs.jpg");
+}
+
+.carousel-caption {
+    color: #ffffff;
+}
+
+#item4 {
+    background-image: url("http://www.kmhkreations.net/wp-content/uploads/2011/09/dollar-sign.jpg");
+}
+.video-section .pattern-overlay {
+background-color: rgba(71, 71, 71, 0.59);
+padding: 110px 0 32px;
+min-height: 496px;
+/* Incase of overlay problems just increase the min-height*/
+}
+.video-section h1, .video-section h3{
+text-align:center;
+color:#fff;
+}
+.video-section h1{
+font-size:110px;
+font-family: 'Buenard', serif;
+font-weight:bold;
+text-transform: uppercase;
+margin: 40px auto 0px;
+text-shadow: 1px 1px 1px #000;
+-webkit-text-shadow: 1px 1px 1px #000;
+-moz-text-shadow: 1px 1px 1px #000;
+}
+.video-section h3{
+font-size: 25px;
+font-weight:lighter;
+margin: 0px auto 15px;
+}
+.video-section .buttonBar{display:none;}
+.player {font-size: 1px;}
+
+.end-button {
+    background: #4eaa4e;
+    border: 1;
+    color: gray;
+    font-size: 40px;
+}
+.last {
+    text-align: center;
+}
